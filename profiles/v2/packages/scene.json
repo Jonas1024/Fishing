@@ -36,8 +36,8 @@
   "camera-infos": {
     "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
       "position": {
-        "x": 640,
-        "y": 360.00000000000006,
+        "x": 721.6008490566038,
+        "y": 406.90833333333336,
         "z": 5000
       },
       "rotation": {
@@ -52,16 +52,42 @@
         "z": 0
       },
       "contentRect": {
-        "x": -107.5111876075731,
-        "y": -215.99999999999994,
-        "width": 1280,
-        "height": 720
+        "x": 106.17183770883061,
+        "y": 59.70405727923628,
+        "width": 1490.2169811320755,
+        "height": 838
       },
-      "scale": 1
+      "scale": 0.9882075471698113
+    },
+    "21d25778-f5d5-4575-8091-b4beb8e7dfbf": {
+      "position": {
+        "x": 776.6573858560979,
+        "y": 589.5759264221676,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": -56.48583568303504,
+        "y": -52.4084392465807,
+        "width": 1495.0223752151462,
+        "height": 1152
+      },
+      "scale": 0.8972181112229841
     }
   },
   "camera-uuids": [
-    "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+    "c77ecaa8-c936-46c4-a5b0-98692673ed87",
+    "21d25778-f5d5-4575-8091-b4beb8e7dfbf"
   ],
   "camera": {
     "color": [
@@ -83,5 +109,35 @@
     "iso": 0,
     "aperture": 19,
     "shutter": 7
+  },
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
+  },
+  "scene_view": {
+    "isSceneLightOn": true,
+    "output_device": "__default_design__"
+  },
+  "game-view": {
+    "devicesInfo": {
+      "name": "i18n:scene.game_view.design_resolution",
+      "type": "design",
+      "width": 1280,
+      "height": 720
+    },
+    "rotate": false,
+    "scaleValue": 86,
+    "sliderValue": 42,
+    "stats": false,
+    "fullScreen": true
   }
 }

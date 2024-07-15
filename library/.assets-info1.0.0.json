@@ -1,27 +1,128 @@
 {
   "version": "1.0.0",
   "map": {
-    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing.meta": {
-      "time": 1721012019078.0635
-    },
-    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing": {
-      "time": 1721012025216.9783,
-      "uuid": "86fca11f-0ad6-4d56-a1f4-274931112818"
-    },
-    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes.meta": {
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scenes.meta": {
       "time": 1721012025217.7778
     },
-    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes": {
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scenes": {
       "time": 1721012039894.5947,
       "uuid": "f592e0b5-5789-45dd-b511-ab1d72ccac05"
     },
-    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes/Main.scene.meta": {
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scenes/Main.scene.meta": {
       "time": 1721012039897.5305
     },
-    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes/Main.scene": {
-      "time": 1721012044352.5654,
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scenes/Main.scene": {
+      "time": 1721055349929.441,
       "uuid": "21d25778-f5d5-4575-8091-b4beb8e7dfbf"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Prefabs.meta": {
+      "time": 1721012939298.388
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Prefabs": {
+      "time": 1721012939295.8823,
+      "uuid": "b187ff21-da35-416a-893f-f70b2103e871"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Materials.meta": {
+      "time": 1721012955372.9475
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Materials": {
+      "time": 1721012955371.6064,
+      "uuid": "e18f1b02-cfb2-418e-ae1c-65ac8930afaa"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts.meta": {
+      "time": 1721012966489.2585
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts": {
+      "time": 1721047675338.7102,
+      "uuid": "172abd3a-b627-4e67-8914-96dccd12a05c"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources.meta": {
+      "time": 1721013054046.575
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources": {
+      "time": 1721013423645.6338,
+      "uuid": "f2d48b0e-dbce-4938-b6d8-8a52896bc4df"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images.meta": {
+      "time": 1721013423646.8074
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images": {
+      "time": 1721014229080.1907,
+      "uuid": "07401213-ac63-4004-bd3a-d2fc7db1fb60"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishbg.jpg.meta": {
+      "time": 1721013587498.533
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishbg.jpg": {
+      "time": 1721011251096.2034,
+      "uuid": "9de7e37d-b61c-439f-8d17-f7ddd8182254"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishCredit_0.png.meta": {
+      "time": 1721014106042.5833
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishTp.png.meta": {
+      "time": 1721014106055.217
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishCredit_0.png": {
+      "time": 1721011251172.1558,
+      "uuid": "65e62181-6994-491b-b021-0d3950e9e13a"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishTp.png": {
+      "time": 1721011251170.7964,
+      "uuid": "39229394-2209-4a37-aedc-b25b66169981"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishTp.plist.meta": {
+      "time": 1721014181414.1272
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishTp.plist": {
+      "time": 1721011251171.6006,
+      "uuid": "4f7a2980-8efc-410c-9153-e1fd18ac5445"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts.meta": {
+      "time": 1721029471138.6182
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts": {
+      "time": 1721049985404.2412,
+      "uuid": "49690c80-4570-4c6e-b71b-4296d2477413"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts.meta": {
+      "time": 1721047675339.5847
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts": {
+      "time": 1721047674033.9114,
+      "uuid": "387f2c2f-9d8e-488c-a05a-d65a3b5f0435"
     }
   },
-  "missing": {}
+  "missing": {
+    "f592e0b5-5789-45dd-b511-ab1d72ccac05": {
+      "path": "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes",
+      "time": 1721012039894.5947,
+      "removeTime": 1721012917483
+    },
+    "21d25778-f5d5-4575-8091-b4beb8e7dfbf": {
+      "path": "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes/Main.scene",
+      "time": 1721012044352.5654,
+      "removeTime": 1721012917484
+    },
+    "86fca11f-0ad6-4d56-a1f4-274931112818": {
+      "path": "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing",
+      "time": 1721012917482.7988,
+      "removeTime": 1721012923633
+    },
+    "8511e742-87c6-4c4a-8d2a-04a7eb48040a": {
+      "path": "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/wikiicon.png",
+      "time": 1721011251092.193,
+      "removeTime": 1721014229082
+    },
+    "4945fb56-f839-4b72-b6e7-48e38802d7f4": {
+      "path": "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts",
+      "time": 1721038442806.456,
+      "removeTime": 1721045895849
+    },
+    "2ecb060d-fddb-46bf-bff2-a1950d014008": {
+      "path": "/Users/fanjianrong/Practise/git/Fishing/assets/Scripts/ScaleWithParentWidth.ts",
+      "time": 1721045874539.748,
+      "removeTime": 1721047675338
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5734.046913146973,
+      "mTimestamp": 5925.299209594727,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6217.369583129883,
+      "mTimestamp": 2067678.75,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -425,6 +425,34 @@
               "column": 155
             }
           }
+        },
+        {
+          "value": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 78
+            }
+          }
         }
       ],
       "type": "esm",
@@ -433,6 +461,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts"
           },
           "messages": []
         }
@@ -461,6 +503,132 @@
             "end": {
               "line": 1,
               "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts": {
+      "mTimestamp": {
+        "mtime": 1721049985404.2412,
+        "uuid": "49690c80-4570-4c6e-b71b-4296d2477413"
+      },
+      "chunkId": "16583a5c7a3f1c7ff9f72c3b0ce28b7d91af8a28",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 109
+            },
+            "end": {
+              "line": 1,
+              "column": 113
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts": {
+      "mTimestamp": {
+        "mtime": 1721047674033.9114,
+        "uuid": "387f2c2f-9d8e-488c-a05a-d65a3b5f0435"
+      },
+      "chunkId": "34c2db02aaed48f39b6c66a7abd75e4bb2b6497f",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/ScaleWithParentWidth.ts": {
+      "mTimestamp": {
+        "mtime": 1721045874539.748,
+        "uuid": "2ecb060d-fddb-46bf-bff2-a1950d014008"
+      },
+      "chunkId": "a3287dd07eb1a11f8e4074959739541bffe85b48",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 108
+            },
+            "end": {
+              "line": 1,
+              "column": 112
             }
           }
         }

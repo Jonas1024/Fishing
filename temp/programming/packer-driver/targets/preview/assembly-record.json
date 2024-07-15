@@ -12,6 +12,30 @@
       },
       "timestamp": 1721011896218
     },
+    "a3287dd07eb1a11f8e4074959739541bffe85b48": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1721045896012
+    },
+    "34c2db02aaed48f39b6c66a7abd75e4bb2b6497f": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1721047675417
+    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -148,7 +172,7 @@
           "messages": []
         }
       },
-      "timestamp": 1721011969016
+      "timestamp": 1721047925723
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -158,14 +182,42 @@
             "id": "47a1530b86f8dba752d13f037cd555503db82c41"
           },
           "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "16583a5c7a3f1c7ff9f72c3b0ce28b7d91af8a28"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "34c2db02aaed48f39b6c66a7abd75e4bb2b6497f"
+          },
+          "messages": []
         }
       },
-      "timestamp": 1721011969433
+      "timestamp": 1721049987432
+    },
+    "16583a5c7a3f1c7ff9f72c3b0ce28b7d91af8a28": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1721049987448
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
-    "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "47a1530b86f8dba752d13f037cd555503db82c41"
+    "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "47a1530b86f8dba752d13f037cd555503db82c41",
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts": "16583a5c7a3f1c7ff9f72c3b0ce28b7d91af8a28",
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts": "34c2db02aaed48f39b6c66a7abd75e4bb2b6497f"
   }
 }
