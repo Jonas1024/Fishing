@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing.meta": {
+      "time": 1721012019078.0635
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing": {
+      "time": 1721012025216.9783,
+      "uuid": "86fca11f-0ad6-4d56-a1f4-274931112818"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes.meta": {
+      "time": 1721012025217.7778
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes": {
+      "time": 1721012039894.5947,
+      "uuid": "f592e0b5-5789-45dd-b511-ab1d72ccac05"
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes/Main.scene.meta": {
+      "time": 1721012039897.5305
+    },
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Fishing/Scenes/Main.scene": {
+      "time": 1721012044352.5654,
+      "uuid": "21d25778-f5d5-4575-8091-b4beb8e7dfbf"
+    }
+  },
+  "missing": {}
+}
