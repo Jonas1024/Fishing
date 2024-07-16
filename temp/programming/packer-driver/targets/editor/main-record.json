@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5888.4627113342285,
+      "mTimestamp": 6163.647750854492,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2067651.6532096863,
+      "mTimestamp": 6784.900039672852,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts",
+          "value": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/GameLaunch.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,21 +667,35 @@
             },
             "end": {
               "line": 5,
-              "column": 278
+              "column": 276
             }
           }
         },
         {
-          "value": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts",
+          "value": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 294
+              "column": 292
             },
             "end": {
               "line": 5,
-              "column": 365
+              "column": 371
+            }
+          }
+        },
+        {
+          "value": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/Utils/Logger.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 387
+            },
+            "end": {
+              "line": 5,
+              "column": 466
             }
           }
         }
@@ -698,6 +712,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/GameLaunch.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts"
           },
           "messages": []
@@ -705,7 +726,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts"
+            "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/Utils/Logger.ts"
           },
           "messages": []
         }
@@ -765,10 +786,94 @@
     },
     "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/SceneAdapter.ts": {
       "mTimestamp": {
-        "mtime": 1721049985404.2412,
+        "mtime": 1721099171309.951,
         "uuid": "49690c80-4570-4c6e-b71b-4296d2477413"
       },
       "chunkId": "16583a5c7a3f1c7ff9f72c3b0ce28b7d91af8a28",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./Utils/Logger",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 23
+            },
+            "end": {
+              "line": 16,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/Utils/Logger.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts": {
+      "mTimestamp": {
+        "mtime": 1721055843137.3726,
+        "uuid": "387f2c2f-9d8e-488c-a05a-d65a3b5f0435"
+      },
+      "chunkId": "34c2db02aaed48f39b6c66a7abd75e4bb2b6497f",
       "imports": [
         {
           "value": "cc"
@@ -781,11 +886,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 109
+              "column": 108
             },
             "end": {
               "line": 1,
-              "column": 113
+              "column": 112
             }
           }
         }
@@ -806,28 +911,6 @@
           },
           "messages": []
         },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/test.ts": {
-      "mTimestamp": {
-        "mtime": 1721047674033.9114,
-        "uuid": "387f2c2f-9d8e-488c-a05a-d65a3b5f0435"
-      },
-      "chunkId": "34c2db02aaed48f39b6c66a7abd75e4bb2b6497f",
-      "imports": [
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
         {
           "resolved": {
             "type": "module",
@@ -884,6 +967,129 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1721111613704,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/Utils/Logger.ts": {
+      "mTimestamp": {
+        "mtime": 1721110629906.986,
+        "uuid": "0ca4c3eb-1103-440a-89e3-2510f5b6e399"
+      },
+      "chunkId": "e0936d8e09f4047b8969f4b693b8405b6f80f714",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/GameLaunch.ts": {
+      "mTimestamp": {
+        "mtime": 1721110598168.8582,
+        "uuid": "fc7b637f-0d2e-4fab-82b8-1e74f1acb916"
+      },
+      "chunkId": "b2f9686289ea54c047d9f9ab711cc3533bc0bea2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./Utils/Logger",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 40
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fanjianrong/Practise/git/Fishing/assets/Scripts/Utils/Logger.ts"
           },
           "messages": []
         }

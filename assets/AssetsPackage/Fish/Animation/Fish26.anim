@@ -1,0 +1,190 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Fish26",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 2,
+    "_duration": 2.0166666666666666,
+    "_hash": 0,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_events": [],
+    "_exoticAnimation": null
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      }
+    },
+    "_channel": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "Sprite"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 6
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.08333333333333333,
+      0.16666666666666666,
+      0.25,
+      0.3333333333333333,
+      0.4166666666666667,
+      0.5,
+      0.5833333333333334,
+      0.6666666666666666,
+      0.75,
+      0.8333333333333334,
+      0.9166666666666666,
+      1,
+      1.0833333333333333,
+      1.1666666666666667,
+      1.25,
+      1.3333333333333333,
+      1.4166666666666667,
+      1.5,
+      1.5833333333333333,
+      1.6666666666666667,
+      1.75,
+      1.8333333333333333,
+      1.9166666666666667,
+      2
+    ],
+    "_values": [
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@543d5",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@589c1",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@07fe0",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@fb172",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@0b498",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@500d2",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@5a62b",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@a623f",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@35184",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@06775",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@ab5e3",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@f4076",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@a90b8",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@39e17",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@6419d",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@37b76",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@9c43b",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@8808e",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@79cbd",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@09f05",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@00aa3",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@1b5f5",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@f77cc",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@5e193",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "6fb0ee62-0358-4df0-afdf-6f66228d355d@543d5",
+        "__expectedType__": "cc.Asset"
+      }
+    ]
+  }
+]
