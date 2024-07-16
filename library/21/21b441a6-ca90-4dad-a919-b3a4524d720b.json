@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "fish_com",
+    "spriteFrames": [
+      "fish_com1",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@824cf",
+      "fish_com10",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@3b19c",
+      "fish_com2",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@bd0d8",
+      "fish_com3",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@12e0b",
+      "fish_com4",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@a3386",
+      "fish_com5",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@f4d5d",
+      "fish_com6",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@6efe6",
+      "fish_com7",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@463ef",
+      "fish_com8",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@32cff",
+      "fish_com9",
+      "21b441a6-ca90-4dad-a919-b3a4524d720b@1ffdd"
+    ]
+  }
+}

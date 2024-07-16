@@ -1,0 +1,175 @@
+{
+  "path": {
+    "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishTp.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/Resources/Images/fishTp.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Images/fishTp.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Images/fishTp.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/UI/fishTp.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/UI/fishTp.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish01.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish01.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish02.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish02.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/fish_com.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/fish_com.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish03.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish03.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish04.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish04.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish05.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish05.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish06.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish06.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish07.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish07.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish09.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish09.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish10.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish10.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish107.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish107.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish104.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish104.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish106.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish106.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish105.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish105.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish109.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish109.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish11.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish11.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish13.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish13.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish12.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish12.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish14.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish14.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish17.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish17.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish18.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish18.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish201.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish201.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish301.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish301.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish315.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish315.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish_renyu_0.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish_renyu_0.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish_yd_1.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish_yd_1.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish_yd_0.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/FishSingle/fish/atlas/Fish/fish_yd_0.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish18.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish18.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish201.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish201.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish301.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish301.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish315.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish315.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish_renyu_0.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish_renyu_0.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish_yd_0.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish_yd_0.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish_yd_1.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish_yd_1.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish01.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish01.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish02.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish02.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/fish_com.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/fish_com.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish03.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish03.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish04.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish04.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish05.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish05.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish06.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish06.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish07.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish07.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish09.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish09.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish10.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish10.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish104.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish104.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish105.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish105.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish107.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish107.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish106.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish106.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish109.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish109.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish11.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish11.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish12.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish12.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish13.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish13.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish14.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish14.png"
+    ],
+    "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish17.plist": [
+      "/Users/fanjianrong/Practise/git/Fishing/assets/AssetsPackage/Fish/Atlas/Fish/fish17.png"
+    ]
+  }
+}

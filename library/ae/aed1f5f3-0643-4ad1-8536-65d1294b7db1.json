@@ -1,0 +1,24 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "fish17",
+    "spriteFrames": [
+      "fish17_00",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@5f735",
+      "fish17_01",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@8246e",
+      "fish17_02",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@1c656",
+      "fish17_03",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@d1a5f",
+      "fish17_04",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@160bf",
+      "fish17_05",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@b6aa8",
+      "fish17_06",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@644e6",
+      "fish17_07",
+      "aed1f5f3-0643-4ad1-8536-65d1294b7db1@de9d6"
+    ]
+  }
+}

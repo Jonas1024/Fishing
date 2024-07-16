@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fish13_07",
+    "atlas": "352c9803-6c53-4d8f-ba10-deec62a91cda",
+    "rect": {
+      "x": 2,
+      "y": 559,
+      "width": 183,
+      "height": 169
+    },
+    "offset": {
+      "x": 7,
+      "y": 7
+    },
+    "originalSize": {
+      "width": 283,
+      "height": 283
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "0f783e6e-b74d-413a-bf3d-e7dd16a48874@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
