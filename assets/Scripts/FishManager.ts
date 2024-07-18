@@ -1,9 +1,10 @@
-import { _decorator, Component, Node, Prefab, resources, error, instantiate, Layers, Vec3 } from 'cc';
+import { _decorator, Component, Node, Prefab, resources, error, instantiate, Layers, Vec3, NodePool } from 'cc';
 import { ResourceManager } from './ResourceManager';
 import { Logger } from './Utils/Logger';
 import { Fish } from './Fish';
 import { RoadNavigator } from './RoadNavigator';
 import { RoadMapManager } from './RoadMapManager';
+import { ScoreManager } from './ScoreManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('FishManager')
@@ -12,6 +13,9 @@ export class FishManager extends Component {
     public static Instance: FishManager = null as unknown as FishManager;
 
     private fishRoot: Node | null = null;
+
+    private fishPool: Array<NodePool> = [];
+    private fishList: Array<Fish> = [];
 
     private fishPrefabs: Array<Prefab> = null as unknown as Array<Prefab>;
 
@@ -55,19 +59,45 @@ export class FishManager extends Component {
     }
 
     public killFish(fish: Fish) {
-        fish.node.destroy();
+        let index: number = this.fishList.indexOf(fish);
+        if (index >= 0) {
+            this.fishList.splice(index, 1);
+            this.destroyFish(fish);
+        }
+    }
+
+    private destroyFish(fish: Fish) {
+        if (!this.fishPool[fish.type - 1]) {
+            this.fishPool[fish.type - 1] = new NodePool();
+        }
+        this.fishPool[fish.type - 1].put(fish.node);
+        let roadNavi = fish.node.getComponent(RoadNavigator);
+        fish.node.removeComponent(roadNavi);
     }
 
     releaseFish(): void {
         let fishIndex = Math.floor(Math.random() * this.fishPrefabs.length);
-        let prefab = this.fishPrefabs[fishIndex];
-        let fish: Node = instantiate(prefab);
+        let fish: Fish = this.createFishByType(fishIndex);
+        fish.isDead = false;
+        fish.currentHP = fish.HP;
 
         let roadIndex = Math.floor(Math.random() * RoadMapManager.Instance.road_data.length);
         let road = RoadMapManager.Instance.road_data[roadIndex];
-        let roadNavi = fish.addComponent(RoadNavigator);
+        let roadNavi = fish.node.addComponent(RoadNavigator);
+        
         roadNavi.init(road, 200);
-        this.fishRoot?.addChild(fish);
+        this.fishList.push(fish);
+    }
+
+    createFishByType(fishIndex: number): Fish {
+        let fishNode: Node;
+        if (this.fishPool[fishIndex] && this.fishPool[fishIndex].size() > 0) {
+            fishNode = this.fishPool[fishIndex].get();
+        } else {
+            fishNode = instantiate(this.fishPrefabs[fishIndex])
+            this.fishRoot.addChild(fishNode);
+        }
+        return fishNode.getComponent(Fish);
     }
 }
 

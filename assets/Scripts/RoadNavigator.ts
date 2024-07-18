@@ -1,6 +1,8 @@
 import { _decorator, Component, Node, Quat, Vec3, v3, v2, Vec2, UIOpacity, Sprite } from 'cc';
 import { Logger } from './Utils/Logger';
 import MathUtils from './Utils/MathUtils';
+import { FishManager } from './FishManager';
+import { Fish } from './Fish';
 const { ccclass, property } = _decorator;
 
 @ccclass('RoadNavigator')
@@ -74,7 +76,8 @@ export class RoadNavigator extends Component {
          // 路径点走完了
         if (this.next_step >= this.road_data.length) {
             this.is_walking = false;
-            this.node.destroy();
+            let fish = this.node.getComponent(Fish);
+            FishManager.Instance.killFish(fish);
             return;
         }
 

@@ -6,6 +6,7 @@ import { FishManager } from './FishManager';
 import { BulletManager } from './BulletManager';
 import { CannonManager } from './CannonManager';
 import { NetManager } from './NetManager';
+import { ScoreManager } from './ScoreManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameLaunch')
@@ -20,11 +21,14 @@ export class GameLaunch extends Component {
         this.node.addComponent(FishManager);
         this.node.addComponent(BulletManager);
         this.node.addComponent(NetManager);
+        this.node.addComponent(ScoreManager);
 
         RoadMapManager.Instance.loadRoadMap();
         FishManager.Instance.init();
         BulletManager.Instance.init();
         NetManager.Instance.init();
+        ScoreManager.Instance.init();
+        CannonManager.Instance.init();
     }
 
 }

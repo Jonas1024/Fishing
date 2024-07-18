@@ -54,6 +54,7 @@ export class BulletManager extends Component {
         let rad: number = MathUtils.p2pRad(new Vec2(this._vec3Cache.x, this._vec3Cache.y), localP)
         let rot: number = MathUtils.radiansToDegrees(rad)
         let bullet: Bullet = this.createBullet(CannonManager.Instance.cannonType)
+        bullet.type = CannonManager.Instance.cannonType;
         bullet.targetP = localP;
         this.bulletRoot.addChild(bullet.node)
         bullet.node.setPosition(CannonManager.Instance.getCannonPosition())

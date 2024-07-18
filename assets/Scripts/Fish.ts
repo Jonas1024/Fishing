@@ -8,12 +8,17 @@ const { ccclass, property } = _decorator;
 export class Fish extends Component {
 
     @property({ type: CCInteger })
-    private score: number = 1000;
+    public score: number = 1000;
 
     @property({ type: CCInteger })
     public HP: number = 1000;
 
+    public currentHP: number;
+
     public isDead: boolean;
+
+    @property({ type: CCInteger })
+    public type: number = 1;
 
     protected start(): void {
         Logger.info("fish started");
@@ -26,7 +31,7 @@ export class Fish extends Component {
         roadNavi.is_walking = false;
 
         this.scheduleOnce(()=>{
-            FishManager.Instance.killFish(this)
+            FishManager.Instance.killFish(this);
         }, 1.5)
         tween(this.node).repeatForever(
             tween().by(0.6, { angle: -360 })
