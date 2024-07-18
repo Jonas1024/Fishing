@@ -16,8 +16,7 @@ export class RoadNavigator extends Component {
     private vz: number = 0;
     private walk_time: number = 0;
     private passed_time: number = 0; // 行走走过的时间；
-    private is_walking: boolean = false; // 是否行走；
-    private is_revert: boolean = false;
+    public is_walking: boolean = false; // 是否行走；
 
     protected onLoad(): void {
         
@@ -137,7 +136,6 @@ export class RoadNavigator extends Component {
         }
         // 调整方向
         this.node.angle = -rot1;
-        console.log(`rotation----: ${-rot1}`);
     }
 
     private walking_update(deltaTime: number): void {

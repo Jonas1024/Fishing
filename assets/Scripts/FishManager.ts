@@ -49,33 +49,19 @@ export class FishManager extends Component {
             this.fishPrefabs = fish_prefabs;
             Logger.info("Fish count: " + fish_prefabs.length);
 
-            fish_prefabs.forEach(prefab => {
-                
-
-                // var fish: Node = instantiate(prefab);
-                // fish.layer = Layers.Enum.UI_2D;
-
-                // Logger.info(fish.position);
-
-                // let x = Math.floor(Math.random() * 1920) - 960;
-                // let y = Math.floor(Math.random() * 1080) - 540;
-                // fish.setPosition(new Vec3(x, y, 0));
-
-                // var scale = 1;
-                // fish.setScale(new Vec3(scale, scale, scale));
-                // this.fishRoot?.addChild(fish);
-            });
-            
             // this.releaseFish();
             this.schedule(this.releaseFish, 1);
         })
+    }
+
+    public killFish(fish: Fish) {
+        fish.node.destroy();
     }
 
     releaseFish(): void {
         let fishIndex = Math.floor(Math.random() * this.fishPrefabs.length);
         let prefab = this.fishPrefabs[fishIndex];
         let fish: Node = instantiate(prefab);
-        fish.addComponent(Fish);
 
         let roadIndex = Math.floor(Math.random() * RoadMapManager.Instance.road_data.length);
         let road = RoadMapManager.Instance.road_data[roadIndex];

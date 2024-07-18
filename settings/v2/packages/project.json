@@ -7,5 +7,10 @@
       "fitHeight": true,
       "fitWidth": false
     }
+  },
+  "physics": {
+    "collisionMatrix": {
+      "0": 1
+    }
   }
 }
