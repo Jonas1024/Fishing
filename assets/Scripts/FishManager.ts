@@ -81,7 +81,6 @@ export class FishManager extends Component {
         let road = RoadMapManager.Instance.road_data[roadIndex];
         let roadNavi = fish.addComponent(RoadNavigator);
         roadNavi.init(road, 200);
-        // fish.setWorldPosition(new Vec3(960, 540, 0));
         this.fishRoot?.addChild(fish);
     }
 }

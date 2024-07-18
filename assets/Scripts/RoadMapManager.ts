@@ -30,7 +30,7 @@ export class RoadMapManager extends Component {
 
     public loadRoadMap() {
         var roads = [];
-        for (let index = 1; index <= 17; index++) {
+        for (let index = 1; index <= 22; index++) {
             roads.push(`Roads/path${index}`);
         }
 

@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Quat, Vec3, v3, v2, Vec2 } from 'cc';
+import { _decorator, Component, Node, Quat, Vec3, v3, v2, Vec2, UIOpacity, Sprite } from 'cc';
 import { Logger } from './Utils/Logger';
 import MathUtils from './Utils/MathUtils';
 const { ccclass, property } = _decorator;
@@ -17,9 +17,16 @@ export class RoadNavigator extends Component {
     private walk_time: number = 0;
     private passed_time: number = 0; // 行走走过的时间；
     private is_walking: boolean = false; // 是否行走；
-    private dst_rot: number; // 目标旋转的结果;
-    private now_rot: number;
     private is_revert: boolean = false;
+
+    protected onLoad(): void {
+        
+    }
+
+    protected start(): void {
+        // const opacityComp = this.node.getComponent(Sprite);
+        // opacityComp.color.a = 0;
+    }
 
     update (deltaTime: number): void {
         if (this.is_walking) {
@@ -37,16 +44,30 @@ export class RoadNavigator extends Component {
             return;
         }
         
+        var locl = new Vec3(this.road_data[0].x, this.road_data[0].y, 0);
 
-        this.node.position = new Vec3(this.road_data[0].x, this.road_data[0].y, 0);
+        console.log(locl);
+
+        this.node.position = locl;
         this.next_step = 1;
 
         this.passed_time = 0;
         this.is_walking = false;
         
+
+
+        let rad: number = MathUtils.p2pRad(new Vec2(this.node.position.x, this.node.position.y), new Vec2(this.road_data[1].x, this.road_data[1].y));
+        let rot111: number = MathUtils.radiansToDegrees(rad);
+        let rot1: number = MathUtils.rotation2Fish(rot111);
+        this.node.angle = -rot1;
+        Logger.info(this.node.angle);
+        console.log(`rotation: ${-rot1}`);
+        // // this.node.is3DNode = true;
+
         if (this.road_data[0].x < 0) {
-            this.node.angle = -180;
+            this.node.scale = v3(1,-1,1);
         }
+
         this.walk_to_next();
     }
 
@@ -107,14 +128,16 @@ export class RoadNavigator extends Component {
 
         // // 设置 spriteA 的旋转角度，Cocos Creator 的旋转是顺时针为正，所以要取负
         // this.node.angle = -angle;
-
+        
         let rad: number = MathUtils.p2pRad(new Vec2(src.x, src.y), new Vec2(result.x, result.y));
         let rot111: number = MathUtils.radiansToDegrees(rad);
         let rot1: number = MathUtils.rotation2Fish(rot111);
+        if (rad === 0) {
+            return
+        }
         // 调整方向
-        this.dst_rot = -rot1; // 目标的旋转;
-        this.now_rot = this.node.angle;
         this.node.angle = -rot1;
+        console.log(`rotation----: ${-rot1}`);
     }
 
     private walking_update(deltaTime: number): void {
@@ -128,8 +151,6 @@ export class RoadNavigator extends Component {
         pos.y += (this.vy * deltaTime);
         pos.z = this.node.position.z;
         this.node.position = pos;
-
-
 
         if (this.passed_time >= this.walk_time) {
             this.passed_time -= this.walk_time;
